@@ -21,7 +21,7 @@ fs.writeFileSync('index.html',`<!doctype html><html lang="en"><head><meta charse
 <img class="bleed" src="${A}dsc_0243.jpg" alt="" loading="lazy">
 ${slides(['img_6873.jpg','img_6871.jpg','img_6872.jpg','img_6874.jpg'])}
 <section class="wrap"><h3 class="h lead">Currently NYC Electrical Group Leader and Associate Principal at Buro Happold</h3>
-<div class="row"><div class="l">About</div><h3 class="h r" style="margin:0">Over 15 years of experience as an electrical engineering design consultant in the real estate arena, focused in NYC with projects across the states.</h3></div></section>
+<div class="row"><div class="l">About</div><h3 class="h r" style="margin:0">Over 20 years of experience as an electrical engineering design consultant in the real estate arena, focused in NYC with projects across the states.</h3></div></section>
 <div class="strip"><a href="https://www.theshed.org/program/304-sonic-sphere"><img loading="lazy" src="${A}sonicsphere-1200.jpg" alt="Sonic Sphere"></a><a href="https://www.theshed.org/program/304-sonic-sphere"><img loading="lazy" src="${A}sonicsphere-0188redux.jpg" alt="Sonic Sphere"></a></div>
 <img class="bleed" src="${A}img_3829.jpg" alt="" loading="lazy">
 ${slides(['335d.jpg','335b.jpg','335c.jpg','335a.jpg'])}
@@ -40,5 +40,5 @@ const ph=photos.length?0:3;
 page('photos.html','Photos',`<h1>Photos</h1><p class="muted">More photos coming soon.</p><div class="gallery">${photos.map(f=>`<a href="photos/${f}"><img loading="lazy" src="photos/${f}" alt=""></a>`).join('')}${'<div class="ph">Photo coming soon</div>'.repeat(ph)}</div>`);
 page('helix.html','The Helix',`<section class="card" style="text-align:center;padding:3rem 1.5rem"><p class="muted" style="letter-spacing:.2em;text-transform:uppercase;font-family:system-ui;font-size:.8rem">A life journal</p><h1>The Helix</h1><p style="max-width:560px;margin:1rem auto">A long-running record of days, ideas, and the threads that connect them. It is slowly being built into something you'll be able to step into.</p><p><span class="btn off">Enter · coming soon</span></p></section>`);
 page('work.html','Work',`<h1>Work</h1><div class="card"><h3>NYC Electrical Group Leader · Associate Principal</h3><p class="muted">Buro Happold · 2024 – present</p></div>
-<p>Over 15 years of experience as an electrical engineering design consultant in the real estate arena, focused in NYC with projects across the states.</p>
+<p>Over 20 years of experience as an electrical engineering design consultant in the real estate arena, focused in NYC with projects across the states.</p>
 <h2>Past experience</h2><div class="card"><h3>Thornton Tomasetti</h3><p class="muted">MEP design</p></div><p>Contact: <a href="mailto:jonathan.devito@gmail.com">jonathan.devito@gmail.com</a></p>`);
